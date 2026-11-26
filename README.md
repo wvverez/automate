@@ -1,11 +1,6 @@
 # Download All Tools
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/wvverez/automate/main/{puertosinternos,puertosexternos,scanhost} -O
-```
-
-# Add to Path and permissions
-
-```sh
-sudo mv puertosinternos puertosexternos scanhost /usr/local/bin/ && sudo chmod +x /usr/local/bin/puertosinternos /usr/local/bin/puertosexternos /usr/local/bin/scanhost
+# Download All Tools
+curl -fsSLO https://raw.githubusercontent.com/wvverez/automate/main/puertosinternos -O https://raw.githubusercontent.com/wvverez/automate/main/puertosexternos -O https://raw.githubusercontent.com/wvverez/automate/main/scanhost && sudo chmod +x puertosinternos puertosexternos scanhost && sudo mv puertosinternos puertosexternos scanhost /usr/local/bin/
 ```
