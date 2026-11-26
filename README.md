@@ -4,6 +4,8 @@
 curl -fsSL https://raw.githubusercontent.com/wvverez/automate/main/{puertosinternos,puertosexternos,scanhost} -O
 ```
 
+# Add to Path and permissions
+
 ```sh
 sudo mv puertosinternos puertosexternos scanhost /usr/local/bin/ && sudo chmod +x /usr/local/bin/puertosinternos /usr/local/bin/puertosexternos /usr/local/bin/scanhost
 ```
